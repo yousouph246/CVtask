@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* background-color: rgb(119, 114, 114); */
+    width: 100%;
+}
+
+#container{
+    width: 60%;
+    background-color: white;
+    border: 1px solid grey;
+    height: 210rem;
+    margin: 2rem 17rem;
+}
+
+header{
+    background-color:lightgray;
+}
+
+header p{
+    margin: 1rem;
+    padding: 0 0 2rem 0;
+}
+
+h1{
+    letter-spacing: 1.2rem;
+    text-align: center;
+}
+
+hr{
+    width: 90%;
+}
+
+.contents{
+    margin-left: 2rem;
+}
+div{
+    margin-bottom: 2rem;
+}
+
+span{
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+ul{
+    margin: 0 0rem 1rem 2rem;
+}
+
+ol{
+    margin: 0rem 2rem;
+}
+
+h4, p{
+    margin-bottom: 1rem;
+}
+.tab1{
+    margin-left: 18rem;
+}
+
+.tab2{
+    margin-left: 20rem;
+}
+
+.tab {
+    margin-left: 15rem;
+}
+
+img{
+    padding-right: 5rem;
+}
+
+@media screen and (max-width: 800px){
+    #container{
+        width:70%;
+        background-color: white;
+        border: 1px solid grey;
+        height: 260rem;
+        margin: 2rem 5rem;
+    }
+    .contents{
+        margin-left: 1.5rem;
+        padding-right: 60px;
+    }
+    
+    .tab1, .tab2, .tab{
+        margin-left: 8rem;
+    }
+    
+    img{
+        padding-right: 0rem;
+    }
+
+    hr{
+        width: 100%;
+    }
+}
+    
+@media (min-width: 800px)and (max-width: 1300px){
+    #container{
+        width:70%;
+        background-color: white;
+        border: 1px solid grey;
+        height: 260rem;
+        margin: 2rem 5rem;
+    }
+    .contents{
+        margin-left: 1.5rem;
+        padding-right: 60px;
+    }
+    
+    .tab1, .tab2, .tab{
+        margin-left: 8rem;
+    }
+    
+    img{
+        padding-right: 0rem;
+    }
+
+    hr{
+        width: 100%;
+    }
+}
